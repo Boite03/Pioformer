@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# IDE and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Training and evaluation outputs
+lightning_logs/
+wandb/
+outputs/
+runs/
+predictions/
+events.out.tfevents.*
+*.ckpt
+*.h5
+*.pt
+processed/
+
+# Local datasets and generated artifacts
+dataset/
+data/
+paper/
+competition_files/
+checkpoints/
+ablation/
+appendix/
+fail/
+pred_traj/
+result/
+viz_plan/
+viz_result/
+three-stage/
+*.npy
+
+# Vendored dependencies and archives
+argoverse-api/
+*.tar
+*.tar.gz
+*.zip
+*.rar
